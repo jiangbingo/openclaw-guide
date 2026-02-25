@@ -8,19 +8,6 @@
 
 **[https://jiangbingo.github.io/openclaw-guide/](https://jiangbingo.github.io/openclaw-guide/)**
 
-## 常用命令
-
-```bash
-# 安装依赖
-npm install
-
-# 构建
-npm run docs:build
-
-# 预览构建结果
-npm run docs:preview
-```
-
 ## 项目结构
 
 ```
@@ -60,4 +47,4 @@ openclaw-guide/
 
 ## License
 
-MIT，这是一个指导别人安装的付费项目。
+MIT
