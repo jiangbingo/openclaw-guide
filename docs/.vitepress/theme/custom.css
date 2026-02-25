@@ -76,8 +76,8 @@
 }
 
 .qr-code {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: auto;
   border-radius: 8px;
   margin-bottom: 1rem;
   background: #fff;

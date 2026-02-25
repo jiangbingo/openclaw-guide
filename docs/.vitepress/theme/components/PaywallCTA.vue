@@ -11,7 +11,7 @@
     </div>
 
     <div class="paywall-action">
-      <img src="/images/xianyu-qr.png" alt="咸鱼扫码咨询" class="qr-code" />
+      <img src="/images/xianyu-qr.jpg" alt="咸鱼扫码咨询" class="qr-code" />
       <p class="price">💰 服务价格：¥39/次</p>
       <a href="#" class="cta-button" @click.prevent="handleClick">扫码咸鱼咨询</a>
     </div>

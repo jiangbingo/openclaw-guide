@@ -20,7 +20,7 @@
 #### 方式二：扫码联系
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/images/xianyu-qr.png" alt="咸鱼二维码" style="width: 180px; height: 180px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+  <img src="/images/xianyu-qr.jpg" alt="咸鱼二维码" style="width: 220px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
   <p style="color: #666; margin-top: 1rem;">扫描上方二维码添加联系</p>
 </div>
 
