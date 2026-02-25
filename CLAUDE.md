@@ -1,12 +1,6 @@
-# Old Mac 开发指南 - OpenClaw 安装配置
+# CLAUDE.md
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://jiangbingo.github.io/openclaw-guide/)
-
-> MacBook Pro 2015 OpenClaw 安装配置一对一指导服务
-
-## 网站地址
-
-**[https://jiangbingo.github.io/openclaw-guide/](https://jiangbingo.github.io/openclaw-guide/)**
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## 常用命令
 
