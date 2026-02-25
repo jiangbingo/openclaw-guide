@@ -1,0 +1,137 @@
+/* 自定义样式 */
+
+:root {
+  --vp-c-brand-1: #3eaf7c;
+  --vp-c-brand-2: #42b883;
+  --vp-c-brand-3: #35a06c;
+  --vp-c-brand-soft: rgba(62, 175, 124, 0.14);
+}
+
+/* 深色模式 */
+.dark {
+  --vp-c-brand-1: #42b883;
+  --vp-c-brand-2: #3eaf7c;
+  --vp-c-brand-3: #35a06c;
+}
+
+/* 首页 Hero 优化 */
+.VPHero .name {
+  background: linear-gradient(120deg, #3eaf7c, #42b883);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 付费引导组件样式增强 */
+.paywall-cta {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f0f9f4 0%, #e8f5e9 100%);
+  border-radius: 12px;
+  border: 1px solid #c8e6c9;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dark .paywall-cta {
+  background: linear-gradient(135deg, #1a2e1a 0%, #1b2d1b 100%);
+  border-color: #2e5a2e;
+}
+
+.paywall-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.paywall-content h3 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.dark .paywall-content h3 {
+  color: #81c784;
+}
+
+.paywall-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.paywall-content li {
+  padding: 0.5rem 0;
+  color: #555;
+}
+
+.dark .paywall-content li {
+  color: #aaa;
+}
+
+.paywall-action {
+  text-align: center;
+  min-width: 180px;
+}
+
+.qr-code {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background: #fff;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dark .qr-code {
+  background: #2a2a2a;
+}
+
+.price {
+  font-weight: bold;
+  color: #e53935;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(135deg, #ff6b35, #ff5722);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 87, 34, 0.4);
+}
+
+/* 响应式调整 */
+@media (max-width: 640px) {
+  .paywall-cta {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .paywall-content {
+    min-width: auto;
+  }
+}
+
+/* 警告提示框样式 */
+.custom-block.warning {
+  border-color: #ff9800;
+}
+
+/* 提示框图标优化 */
+.custom-block.tip .custom-block-title {
+  color: #3eaf7c;
+}
