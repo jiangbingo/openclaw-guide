@@ -20,13 +20,7 @@
 #### 方式二：扫码联系
 
 <div style="text-align: center; margin: 2rem 0;">
-  <div style="display: inline-block; padding: 1rem; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <svg viewBox="0 0 150 150" style="width: 150px; height: 150px;">
-      <rect fill="#f5f5f5" width="150" height="150" rx="8"/>
-      <text x="75" y="70" text-anchor="middle" fill="#999" font-size="14">咸鱼二维码</text>
-      <text x="75" y="95" text-anchor="middle" fill="#ccc" font-size="12">待替换</text>
-    </svg>
-  </div>
+  <img src="/images/xianyu-qr.png" alt="咸鱼二维码" style="width: 180px; height: 180px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
   <p style="color: #666; margin-top: 1rem;">扫描上方二维码添加联系</p>
 </div>
 

@@ -11,14 +11,7 @@
     </div>
 
     <div class="paywall-action">
-      <!-- 咸鱼二维码占位符 - 请替换为实际二维码 -->
-      <div class="qr-code">
-        <svg viewBox="0 0 100 100" style="width:100%;height:100%;">
-          <rect fill="#f5f5f5" width="100" height="100"/>
-          <text x="50" y="45" text-anchor="middle" fill="#999" font-size="10">咸鱼二维码</text>
-          <text x="50" y="60" text-anchor="middle" fill="#999" font-size="8">待替换</text>
-        </svg>
-      </div>
+      <img src="/images/xianyu-qr.png" alt="咸鱼扫码咨询" class="qr-code" />
       <p class="price">💰 服务价格：¥39/次</p>
       <a href="#" class="cta-button" @click.prevent="handleClick">扫码咸鱼咨询</a>
     </div>
